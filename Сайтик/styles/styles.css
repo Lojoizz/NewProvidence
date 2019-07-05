@@ -1,0 +1,520 @@
+/* font-family: 'Lato', sans-serif;
+   font-family: 'Varela Round', sans-serif; */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Lato', sans-serif;
+
+	max-width: 1600px;
+}
+
+.header {
+	min-height: 1000px;
+
+	background-image: url(../img/header-background.jpg);
+	background-position: center;
+
+	padding-left: 215px;
+	padding-right: 215px;
+}
+
+/* navigation */
+
+.navigation {
+	padding-top: 45px;
+	margin-bottom: 110px;
+
+	display: flex;
+	justify-content: space-between;
+
+	max-height: 203px;
+
+	font-size: 16px;
+}
+
+.navigation__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 275px;
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.logo {
+	margin: 0;
+	align-self: center;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 290px;
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.header-menu__a {
+	text-decoration: none;
+	color: black;
+
+	fill: white;
+}
+
+.header-menu__li .header-menu__a:hover {  /* Это сделано для того чтобы перебить стиль у яблока в хэдере */
+	fill: #9f9fa1;
+}
+
+.header-menu__a:hover {
+	color: #9f9fa1; 
+}
+
+.apple-icon {
+	margin-right: 13px;
+}
+
+.blue-button {
+	display: inline-block;
+
+	background-color: #267df4;
+
+	height: 42px;
+	width: 132px;
+
+	border-radius: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+}
+
+/* What happens tomorrow? */
+
+.header-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+}
+
+.header-text__h1 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 62px;
+	line-height: 72px;
+
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.header-text__p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #8c8f94;
+
+	margin: 0;
+	margin-bottom: 61px;
+
+	max-width: 780px;
+}
+
+.watch-video-btn {
+	font-family: inherit;
+	font-size: 16px;
+
+	background-color: transparent;
+	border: 1px solid #dadcdf;
+	border-radius: 25px;
+
+	width: 205px;
+	height: 50px;
+}
+
+.play-icon {
+	margin-right: 13px;
+}
+
+.watch-video-btn:hover {
+	color: #9f9fa1; 
+	fill: #9f9fa1; 
+}
+/* features */
+
+.features {
+	min-height: 560px;
+
+	display: flex;
+	justify-content: center;
+
+	padding-left: 215px;
+	padding-right: 215px;
+	padding-top: 119px;
+	margin-bottom: 120px;
+
+	background-image: url(../img/divdier.svg);
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+}
+
+.feature {
+	max-width: 497px;
+}
+
+.feature1 {
+	margin-right: 111px;
+}
+
+.feature__h2 {
+	font-size: 26px;
+	line-height: 34px;
+	font-weight: 300;
+
+	margin: 0;
+	margin-bottom: 32px;
+}
+
+.feature__p {
+	font-size: 18px;
+	line-height: 26px;
+	color: #8c8f94;
+
+	margin: 0;
+	margin-bottom: 28px;
+}
+
+.lock-svg {
+	width: 50px;
+
+	margin-bottom: 45px;
+}
+
+.alarm-clock-svg {
+	width: 50px;
+
+	margin-bottom: 45px;
+}
+
+/*iphone feature */
+.iphone-section {
+	min-height: 941px;
+
+	background-image: url(../img/iPhone6.jpg);
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+
+	padding-left: 215px;
+	padding-right: 215px;
+	padding-top: 140px;
+}
+
+.iphone-section__container {
+	max-width: 470px;
+}
+
+.iphone-section__h2 {
+	font-size: 42px;
+	line-height: 52px;
+	font-family: 'Varela Round', sans-serif;
+
+	margin: 0;
+	margin-bottom: 65px;
+}
+
+.iphone-section__p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #8c8f94;
+
+	margin: 0;
+	margin-bottom: 27px;
+}
+
+.iphone-section__2p {
+	margin-bottom: 73px;
+}
+
+.iphone-section__a {
+	text-decoration: none;
+
+	display: inline-block;
+
+	font-size: 16px;
+}
+
+.btn-container {
+	display: flex;
+}
+
+.try-to-hack {
+	width: 200px;
+	height: 42px;
+
+	border-radius: 20px;
+	background-color: #267df4;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	fill: white;
+
+	margin-right: 22px;
+}
+
+.try-to-hack p {
+	margin: 0;
+	margin-right: 40px;
+	margin-left: 20px;
+}
+
+.btn-container .iphone-section__a:hover {
+	color: #9f9fa1; 
+	fill: #9f9fa1; 
+}
+
+.learn-more {
+	width: 140px;
+	height: 42px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid #dadcdf;
+	border-radius: 20px;
+
+	color: black;
+}
+
+/* map */
+
+.map {
+	min-height: 783px;
+
+	padding-left: 215px;
+	padding-right: 215px;
+	padding-top: 90px;
+
+	background-image: url(../img/map.jpg);
+	background-repeat: no-repeat;
+	background-position: 100% 32%;
+}
+
+.map__h2 {
+	font-size: 42px;
+	line-height: 52px;
+
+	font-family: 'Varela Round', sans-serif;
+
+	margin: 0;
+	margin-bottom: 59px;
+}
+
+.map__p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #8c8f94;
+
+	margin: 0;
+	margin-bottom: 27px;
+
+	max-width: 470px;
+}
+
+.map__p2 {
+	margin-bottom: 60px;
+}
+
+.map__partners {
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 700;
+
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+/* Айфон скрины */
+
+.screens {
+	min-height: 1200px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding-top: 135px;
+
+	background-color: #f5f5f8;
+	background-image: url(../img/Screens.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.screens__h2 {
+	font-size: 42px;
+	line-height: 52px;
+	font-family: 'Varela Round', sans-serif;
+
+	margin: 0;
+	margin-bottom: 35px;
+
+	background-image: url(../img/Line.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+
+	min-height: 90px;
+}
+
+.screens__p {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 700;
+	color: #8c8f94;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+
+	margin: 0;
+
+}
+
+/* первая форма */
+
+.form1 {
+	min-height: 550px;
+
+	background-color: #f5f5f8;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding-top: 70px;
+}
+
+.form1__p {
+	margin: 0;
+	margin-bottom: 23px;
+
+	font-size: 12px;
+	line-height: 22px;
+	letter-spacing: 1.2px;
+	color: #8c8f94;
+	text-transform: uppercase;
+}
+
+.form1__p b{
+	font-weight: 700;
+}
+
+.form1__h2 {
+	font-size: 42px;
+	line-height: 52px;
+	font-family: 'Varela Round', sans-serif;
+
+	margin: 0;
+	margin-bottom: 44px;
+}
+
+.form1__form {
+	border: 1px solid #8c8f94;
+	border-radius: 25px;
+
+	min-height: 50px;
+	width: 520px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-bottom: 60px;
+}
+
+.form1__input {
+	border: none;
+	background-color: #f5f5f8;
+	margin-left: 25px;
+}
+
+.form1__button {
+	border:none;
+	border-radius: 22px;
+
+	background-color: #6fc754;
+	
+	height: 42px;
+	width: 164px;
+
+	margin-right: 5px;
+
+	color: white;
+	fill: white;
+}
+
+.strelka {
+	margin-left: 20px;
+}
+
+.form1__button:hover {
+	color: #8c8f94;
+	fill: #8c8f94;
+}
+
+.form1__last-p {
+	margin-bottom: 15px;
+}
+
+.form1__btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: white;
+	fill:  white;
+	text-decoration: none;
+	
+	background-color: black;
+
+	height: 60px;
+	width: 210px;
+
+	border-radius: 30px;
+}
+
+.form1__1span {
+	font-size: 20px;
+	line-height: 18px;
+
+	margin-left: 25px;
+}
+
+.form1__2span {
+	font-size: 12px;
+}
+
+.form1__btn:hover {
+	color: red;
+	fill: red;
+}
